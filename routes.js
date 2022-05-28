@@ -10,19 +10,19 @@ router.get("/aktors/avengers", (req, res) => {
       id: 1,
       title: "Captain America",
       name: "Steven Rogers",
-      genre: "Male",
+      gender: "Male",
     },
     {
       id: 2,
       title: "Spider-man",
       name: "Zendaya",
-      genre: "Female",
+      gender: "Female",
     },
     {
       id: 3,
       title: "Spider-man",
       name: "Tom Holland",
-      genre: "Male",
+      gender: "Male",
     },
   ]);
 });
