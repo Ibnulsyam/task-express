@@ -27,12 +27,4 @@ router.get("/aktors/avengers", (req, res) => {
   ]);
 });
 
-router.get("/:name/:tools", (req, res) => {
-  const { name, tools } = req.params;
-  res.json({
-    name,
-    tools,
-  });
-});
-
 module.exports = router;
