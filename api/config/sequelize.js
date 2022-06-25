@@ -7,6 +7,7 @@ const sequelize = new Sequelize({
   username: "root",
   password: "",
   dialect: "mysql",
+  logging: false,
 });
 
 (async () => {

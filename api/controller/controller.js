@@ -1,4 +1,3 @@
-const product = require("../model/model");
 const { join } = require("path");
 const fs = require("fs");
 const Product = require("../model/model");
